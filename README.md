@@ -1,7 +1,7 @@
 
 # Quanta AI Chat Application
 
-**Live Demo**: [Quanta Live](https://quanta.theloko.me/)
+**Live Demo**: [Quanta Live](https://quanta-svnj.onrender.com)
 
 Welcome to Quanta, an AI-powered chat application built with Google's GenerativeAI and powered by Flask.
 
