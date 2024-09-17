@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <button id="sidebarToggle" class="sidebar-toggle" aria-label="Toggle Sidebar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <img src="/static/assets/quanta_icon.svg" alt="Quanta Icon" class="nav-icon">
+            <h1>Quanta</h1>
+        </div>
+        <div class="navbar-right">
+            <button class="about-btn" aria-label="About" id="aboutBtn">
+                <span class="material-icons">info</span>
+                <span></span>
+            </button>
+            <button class="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                <span class="material-icons light-mode">dark_mode</span>
+                <span class="material-icons dark-mode">light_mode</span>
+            </button>
+            <!-- <button class="icon-button" aria-label="User Profile">
+                <img src="/static/assets/user_icon.png" alt="User Profile">
+            </button> -->
+        </div>
+    </nav>
+
+    <!-- About Modal -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About Quanta</h2>
+            <p>Quanta is a revolutionary AI-powered chat application built on the Google Gemini API. </p>
+            <h3>Key Features:</h3>
+            <ul>
+                <li>Advanced AI-driven conversations</li>
+                <li>Intuitive and engaging user interface</li>
+                <li>Seamless integration across various knowledge domains</li>
+                
+            </ul>
+            <p>Version: 1.0.0</p>
+            <p>&copy; 2024 Quanta. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/nihal444" target="_blank" rel="noopener">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="link-icon">
+                    GitHub Repository
+                </a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/nihal-k159" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin link-icon" style="margin-right: 14px;"></i> Linkedin
+                </a>
+                
+            </p>
+            <p>Quanta is developed with the help of advanced AI technologies. Made with &#9829;, by Nihal</a></p>
+        </div>
+        
+    </div>
+
+    <div class="app-container">
+        <aside class="sidebar" id="sidebar">
+            <div class="chat-history" id="chatHistory">
+                <!-- Chat history items will be dynamically added here -->
+            </div>
+            <button class="new-chat-btn" id="newChatBtn">New Chat</button>
+        </aside>
+        <main class="main-content">
+            <div class="chat-area" id="chatArea">
+                <!-- Chat messages will be dynamically added here -->
+            </div>
+            <div class="input-area">
+                <div class="input-box">
+                    <input type="text" id="userInput" placeholder="Type a message...">
+                    <button id="sendBtn">
+                        <i class="material-icons" style="color: var(--icon-color);">send</i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
