@@ -99,4 +99,4 @@ if __name__ == '__main__':
 
 ---
 
-Explore Quanta live at [https://quanta.theloko.me/](https://quanta.theloko.me/) and set up your own instance using the provided instructions!
+Explore Quanta live at [https://quanta-svnj.onrender.com](https://quanta-svnj.onrender.com) and set up your own instance using the provided instructions!
